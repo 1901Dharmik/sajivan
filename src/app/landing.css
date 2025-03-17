@@ -1,0 +1,69 @@
+.cards {
+    /* width: 280px; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* margin-bottom: 50px; */
+  }
+  
+  .cards .image {
+    width: 100%;
+    height: 210px;
+    overflow: hidden;
+    position: relative;
+    object-fit: contain;
+  }
+  
+  .image:hover .secondImg {
+    z-index: 2;
+  }
+  
+  .cards img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    /* padding: 12px;
+    border-radius: 20px !important; */
+  }
+  
+  .mainImg {
+    z-index: 1;
+  }
+  .tex-bg {
+    color: transparent;
+    background-clip: text;
+   
+    background-image: linear-gradient(180deg, #36b65a, #135833);
+   
+  }
+  /* .bg-image-productcard {
+    background-image: url("/public/red-blur.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-position: center center;
+    background-position: center center;
+    overflow: hidden;
+    position: relative;
+  }
+
+  
+  .bg-image-productcard {
+    background-image: url("/public/red-blur.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-position: center center;
+    background-position: center center;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .bg-image4 {
+    background-image: url("/public/cyan-blur.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-position: center center;
+    background-position: center center;
+    overflow: hidden;
+    position: relative;
+  } */
